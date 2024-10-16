@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 import javax.swing.*;
+=======
+import java.util.Arrays;
+>>>>>>> Stashed changes
 
 public class Main {
     public static void main(String[] args) {
@@ -8,6 +12,12 @@ public class Main {
         float ergebnis = begrenzteZufallsZahl(begrenzung);
         System.out.println(ergebnis);
 
+
+        int[] intArray2 = new int[1000];
+        for (int i =0; i<1000;i++){
+            intArray2[i]= i+1;
+        }
+        System.out.println(Arrays.toString(intArray2));
 
     }
     public static float begrenzteZufallsZahl(float[] begrenzung){
