@@ -1,8 +1,6 @@
-<<<<<<< Updated upstream
-import javax.swing.*;
-=======
+
 import java.util.Arrays;
->>>>>>> Stashed changes
+
 
 public class Main {
     public static void main(String[] args) {
@@ -18,7 +16,7 @@ public class Main {
             intArray2[i]= i+1;
         }
         System.out.println(Arrays.toString(intArray2));
-
+        schleife();
     }
     public static float begrenzteZufallsZahl(float[] begrenzung){
         //generieren
@@ -42,5 +40,10 @@ public class Main {
             }
         }
         return  -1;
+    }
+    public static int schleife(){
+        for (int i=3; i >=0 ;i--){
+            System.out.println(i);
+        }return 0 ;
     }
 }
